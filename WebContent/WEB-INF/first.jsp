@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Insert title here</title>
+<title>나의 첫 JSP!!!</title>
 </head>
 <body>
+<h1>나의 첫 JSP</h1>
+
 
 </body>
 </html>

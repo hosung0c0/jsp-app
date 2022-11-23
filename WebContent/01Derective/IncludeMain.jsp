@@ -1,19 +1,20 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+   <!-- ì™¸ë¶€JSP í¬í•¨í•˜ê¸° -->
+   <%@ include file="IncludeTime.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<title>include Áö½Ã¾î</title>
+<meta charset="UTF-8">
+<title>include ì§€ì‹œì–´</title>
 </head>
 <body>
 <h1>
 	<%
-	
-		// ³»Àå°´Ã¼ Áß out : Ãâ·Â°´Ã¼
-		out.println("¿À´Ã³¯Â¥Ãâ·Â:" + today);
+		// ë‚´ìž¥ê°ì²´ ì¤‘ out : ì¶œë ¥ê°ì²´
+		out.println("â˜…ì˜¤ëŠ˜ë‚ ì§œì¶œë ¥:" + today);
 		out.println("<br>");
-		out.println("¿À´Ã³¯Â¥Ãâ·Â:" + tomorrow);
+		out.println("â˜…ì˜¤ëŠ˜ë‚ ì§œì¶œë ¥:" + tomorrow);
 	
 	%>
 </h1>
